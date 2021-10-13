@@ -1,0 +1,13 @@
+progress {
+    color: $progress-bar-fill;
+    border-radius: 10px;
+    height: .35em;
+
+    &::-moz-progress-bar {
+        background: $progress-bar-fill;
+    }
+
+    &::-webkit-progress-value {
+        background: $progress-bar-fill;
+    }
+}

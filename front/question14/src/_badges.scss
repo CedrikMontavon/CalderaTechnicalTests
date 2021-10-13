@@ -1,0 +1,23 @@
+.badge {
+    color: $badge-color;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 50rem;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1;
+    padding: .50em .65em;
+
+    &.info {
+        background-color: $info-badge-background;
+    }
+
+    &.success {
+        background-color: $success-badge-background;
+    }
+
+    &.error {
+        background-color: $error-badge-background;
+    }
+}

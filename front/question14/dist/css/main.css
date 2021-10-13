@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+body {
+  background-color: #f0f0f0;
+  color: #0e0e0e;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.margin-bot-0 {
+  margin-bottom: 0;
+}
+
+.printer-name {
+  font-size: 20px;
+}
+
+.printer-ip {
+  font-size: 14px;
+  color: #9d9d9d;
+}
+
+.print-icon {
+  color: #000000;
+  font-size: 42px !important;
+  padding: 10px;
+  background-color: #e6e6e6;
+  position: relative;
+  top: 25%;
+}
+
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  width: 25%;
+  height: 150px;
+  border: none;
+  border-radius: 5px;
+  margin: 50px;
+  padding: 10px 20px 20px 20px;
+}
+
+.row {
+  width: 100%;
+  margin: 0.25em 0.25em 1.25em 0.25em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col.col-2 {
+  width: 20%;
+}
+.col.col-6 {
+  width: 50%;
+}
+.col.col-10 {
+  width: 80%;
+}
+
+.badge {
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+  border-radius: 50rem;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.5em 0.65em;
+}
+.badge.info {
+  background-color: #00aec0;
+}
+.badge.success {
+  background-color: #28a645;
+}
+.badge.error {
+  background-color: #db3445;
+}
+
+progress {
+  color: #00aec0;
+  border-radius: 10px;
+  height: 0.35em;
+}
+progress::-moz-progress-bar {
+  background: #00aec0;
+}
+progress::-webkit-progress-value {
+  background: #00aec0;
+}

@@ -1,0 +1,17 @@
+.printer-name {
+    font-size: 20px;
+}
+
+.printer-ip {
+    font-size: 14px;
+    color: $small-font-color;
+}
+
+.print-icon {
+    color: $icon-color;
+    font-size: 42px !important;
+    padding: 10px;
+    background-color: $icon-background;
+    position: relative;
+    top: 25%;
+}
