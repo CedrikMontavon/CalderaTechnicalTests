@@ -10,16 +10,6 @@ const printAnotherJob = () => new Promise( (resolve, reject) => {
     });
 });
 
-// const printJobs = () => {
-//     printOneJob().then((result) => {
-//         return printAnotherJob();
-//     }).then((result) => {
-//         return result;
-//     }).catch((error) => {
-//         console.warn(error);
-//     });
-// }
-
 const printJobs = async () => {
     try {
         await printOneJob();

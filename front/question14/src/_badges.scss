@@ -1,5 +1,5 @@
 .badge {
-    color: $badge-color;
+    color: $white;
     text-align: center;
     display: inline-block;
     white-space: nowrap;
@@ -10,7 +10,7 @@
     padding: .50em .65em;
 
     &.info {
-        background-color: $info-badge-background;
+        background-color: $azure-blue;
     }
 
     &.success {
